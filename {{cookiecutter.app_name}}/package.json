@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "main": "rimraf ./build/src && npx tsc && node build/src/main.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.0",
+    "@types/figlet": "^1.7.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  }
+}
